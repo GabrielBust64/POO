@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hell");
+        Persona p1 = new Persona(18, "Benjamin");
+        System.out.println("p1 = " + p1);
+
     }
 }
